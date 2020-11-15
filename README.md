@@ -21,7 +21,7 @@ Total loss is
 
 <img src="https://render.githubusercontent.com/render/math?math=total loss=\alpha *content loss+ \beta*style loss"> ,
 
-Here <img src="https://render.githubusercontent.com/render/math?math=\alpha=1, \beta=10^6, learning rate=0.005, number of epochs=10000"> 
+<img src="https://render.githubusercontent.com/render/math?math=\alpha=1, \beta=10^6, learning {_}rate=0.005, number of epochs=10000"> 
 
 Content image is 'jbg.jpg' and style image is 'impresionism.jpg'. In folder style_transfer there are results of target image during training on every 200th epoch.
 
