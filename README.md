@@ -11,13 +11,13 @@ Content and target images have similar features from pretrained VGG-19. Style an
 We calculate losses
 
 <img src="https://render.githubusercontent.com/render/math?math=loss=\frac{1}{2}\sum(T_c-C_c)^2"> ,
-where $T_c$ are features from target image from selected layers and $C_c$ are features from content image from selected layers.
+where <img src="https://render.githubusercontent.com/render/math?math=T_c"> are features from target image from selected layers and <img src="https://render.githubusercontent.com/render/math?math=C_c"> are features from content image from selected layers.
 <img src="https://render.githubusercontent.com/render/math?math=style loss=a\sum{_i} w_i(T_{s,i}-S_{s,i})^2"> ,
-where $T_s,i$ is gram matrix of target image of i-th feature and $S_s,i$ is gram matrix of style image of i-th feature.
+where <img src="https://render.githubusercontent.com/render/math?math=T_{s,i}"> is gram matrix of target image of i-th feature and <img src="https://render.githubusercontent.com/render/math?math=S_{s,i}"> is gram matrix of style image of i-th feature.
 Total loss is
 <img src="https://render.githubusercontent.com/render/math?math=total loss=\alpha *content loss+ \beta*style loss"> ,
 
-Here $\alpha=1, \beta=10^6$ and a is in range from 0 to 1 and it is higher for first layers.
+Here <img src="https://render.githubusercontent.com/render/math?math=\alpha=1, \beta=10^6"> and a is in range from 0 to 1 and it is higher for first layers.
 
 To train style transfer I used Adam optimizer with learning rate 0.005 with 10000 epochs. 
 
