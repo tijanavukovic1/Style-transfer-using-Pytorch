@@ -9,7 +9,7 @@ To measure style, we calculate features gram matrix.
 
 Content and target images have similar features from pretrained VGG-19. Style and target images have similar gram matrices of features. 
 We calculate losses
-$$content loss=\frac{1}{2}\sum(T_c-C_c)^2$$,
+https://render.githubusercontent.com/render/math?math=content loss=\frac{1}{2}\sum(T_c-C_c)^2,
 where $T_c$ are features from target image from selected layers and $C_c$ are features from content image from selected layers.
 $$style loss=a\sum{_i} w_i(T_s,i-S_s,i)^2$$,
 where $T_s,i$ is gram matrix of target image of i-th feature and $S_s,i$ is gram matrix of style image of i-th feature.
