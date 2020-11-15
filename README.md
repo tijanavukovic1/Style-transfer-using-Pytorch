@@ -22,5 +22,5 @@ To train style transfer I used Adam optimizer with learning rate 0.005 with 1000
 
 Content image is 'jbg.jpg' and style image is 'impresionism.jpg'. In folder style_transfer there are results of target image during training on every 200th epoch.
 
-<p align="center">![Content image](https://github.com/tijanavukovic1/Style-transfer-using-Pytorch/blob/main/bg.jpg?raw=true) + ![Style image](https://github.com/tijanavukovic1/Style-transfer-using-Pytorch/blob/main/impresionism.jpg?raw=true)=![Target image](https://github.com/tijanavukovic1/Style-transfer-using-Pytorch/blob/main/image_new2399.jpg?raw=true)</p>
+![Content image](https://github.com/tijanavukovic1/Style-transfer-using-Pytorch/blob/main/bg.jpg?raw=true) + ![Style image](https://github.com/tijanavukovic1/Style-transfer-using-Pytorch/blob/main/impresionism.jpg?raw=true)=![Target image](https://github.com/tijanavukovic1/Style-transfer-using-Pytorch/blob/main/image_new2399.jpg?raw=true)
 
