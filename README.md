@@ -12,7 +12,7 @@ We calculate losses
 
 <img src="https://render.githubusercontent.com/render/math?math=loss=\frac{1}{2}\sum(T_c-C_c)^2"> ,
 where $T_c$ are features from target image from selected layers and $C_c$ are features from content image from selected layers.
-<img src="https://render.githubusercontent.com/render/math?math=style loss=a\sum{_i} w_i(T_s,i-S_s,i)^2"> ,
+<img src="https://render.githubusercontent.com/render/math?math=style loss=a\sum{_i} w_i(T_{s,i}-S_{s,i})^2"> ,
 where $T_s,i$ is gram matrix of target image of i-th feature and $S_s,i$ is gram matrix of style image of i-th feature.
 Total loss is
 <img src="https://render.githubusercontent.com/render/math?math=total loss=\alpha *content loss+ \beta*style loss"> ,
